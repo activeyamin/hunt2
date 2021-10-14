@@ -2,19 +2,21 @@
 @media (min-width:320px) and (max-width:575px){
     
 /*   ===========navber part responsive start=========== */
+html,body{
+	overflow-x: hidden;
+}
 .title h2{
     font-size: 22px !important;
 }
-
 .navbar-toggler {
     top: 10px;
-    margin-left: 220px;
+    margin-left: 230px;
     position: absolute;
 }
 .navbar-toggler i{
-        color: #fff;
-        font-size: 18px;
-    }    
+    color: #fff;
+    font-size: 18px;
+}    
    
  .navbar-brand img {
 	width: 80px;
@@ -25,7 +27,7 @@ nav ul {
     margin: 10px 0;
     padding: 15px 0;
 }   
-nav element.style {
+element.style {
     margin: 10px 0;
     padding: 15px 0;
 }
@@ -56,7 +58,6 @@ nav ul li a:hover::after {
  #banner-bottom {
 	display: none;
 }       
- 
 #banner-part .banner-slider .banner-overlay .text h3 {
 	font-size: 25px;
 	font-weight: 500;

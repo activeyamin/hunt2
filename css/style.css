@@ -30,7 +30,6 @@ nav {
     border-bottom: 1px solid rgba(248, 171, 26, 0.72);
     background: #000000ad;
     width: 100%;
-    overflow-x: hidden;
 }
 nav ul li{
     margin-right: 30px;
@@ -62,7 +61,6 @@ nav ul li a::after{
 }
 nav ul li a:hover::after{
     width: 100%;
-  
 }
 .title{
     text-align: center;
