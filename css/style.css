@@ -16,9 +16,7 @@ h1,h2,h3,h4,h5,h6,p{
 p {
     color: #000;
 }
-html,body{
-    overflow-x: hidden;
-}
+
 .title h2 {
     font-size: 30px;
     font-family: 'EB Garamond', serif;
@@ -31,7 +29,8 @@ html,body{
 nav {
     border-bottom: 1px solid rgba(248, 171, 26, 0.72);
     background: #000000ad;
-    width: auto;
+    width: 100%;
+    overflow-x: hidden;
 }
 nav ul li{
     margin-right: 30px;
@@ -521,7 +520,7 @@ nav ul li a:hover::after{
     
 }
 #service-part .line {
-    height: 736px;
+    height: 665px;
     width: 2px;
     background: url(../images/line.png);
     position: absolute;
