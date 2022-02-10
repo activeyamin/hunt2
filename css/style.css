@@ -238,7 +238,7 @@ nav ul li a:hover::after{
 	transform: translateY(-50%) rotate(46deg);
 }
 #about-part .row .item-top i {
-	margin-top: 27% !important;
+	margin-top: 18% !important;
 	position: absolute;
 	margin-left: -9px;
 }
@@ -274,15 +274,17 @@ nav ul li a:hover::after{
 #about-part .row .item-left .shape-left {
 	width: 40px;
 	height: 40px;
-    margin-top: -26.5% !important;
-    margin-left: 315px !important;
+	top: 50%;
+	right: -18px;
 	background: #eeeeee;
-	transform: translate(-50%) rotate(46deg);
+	transform: translateY(-50%) rotate(46deg);
+	position: absolute;
 }
 #about-part .row .item-left i {
-	margin-left: 190px !important;
+	right: -43px;
 	position: absolute;
-	margin-top: -77px !important;
+	top: 50% !important;
+	transform: translateY(-50%);
 }
 #about-part .row .round {
 	height: 370px;
@@ -383,13 +385,13 @@ nav ul li a:hover::after{
 	width: 40px;
 	height: 40px;
 	background: #eeeeee;
-	margin-top: -58% !important;
-	margin-left: 50%;
-	position: relative;
-	transform: translatex(-50%) rotate(46deg);
+	top: -18px;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%) rotate(46deg);
 }
 #about-part .row .item-bottom i {
-    margin-top: -64.5% !important;
+    margin-top: -62.5% !important;
     position: absolute;
     margin-left: -8px;
     transition: .4s;
@@ -518,13 +520,13 @@ nav ul li a:hover::after{
     
 }
 #service-part .line {
-    height: 665px;
-    width: 2px;
-    background: url(../images/line.png);
-    position: absolute;
-    top: 253px;
-    left: 50%;
-    transform: translateX(-50%);
+	height: 668px;
+	width: 2px;
+	background: url(../images/line.png);
+	position: absolute;
+	top: 256px;
+	left: 50%;
+	transform: translateX(-50%);
 }
 #service-part .title h2{
     font-family: 'EB Garamond', serif;
@@ -644,7 +646,7 @@ nav ul li a:hover::after{
     color: #0f2f44;
     border: 1px solid #000;
     border-radius: 50%;
-    bottom: -46px;
+    bottom: -43px;
     left: 50%;
     transform: translatex(-50%);
     position: absolute;
@@ -708,10 +710,10 @@ nav ul li a:hover::after{
     background: rgba(12, 12, 12, 0.562);
 }
 #teem-part .overlay .line {
-	top: 132px !important;
-	left: 206px !important;
+	top: 132px;
+	left: 17.4%;
 	position: absolute;
-	height: 479px !important;
+	height: 479px;
 	transform: translateX(-50%);
 	width: 2px;
 	background: url(../images/line.png);
@@ -860,21 +862,6 @@ nav ul li a:hover::after{
              teem  part css end
 ================================================= */
 
-/* =============================================
-             teem-bottom css part start
-================================================= */
-#teem-part .overlay .line {
-	top: 135px;
-	left: 236px;
-	position: absolute;
-	height: 480px;
-	transform: translateX(-50%);
-	width: 2px;
-	background: url(../images/line.png);
-}
-/* =============================================
-              teem-bottom part css end
-================================================= */
 
 /* =============================================
              praicing  part css start
@@ -1272,13 +1259,13 @@ em2-part .member .name h4{
     padding: 20px;
     transition: .4s;
 }
+#document-part .slick-current{
+    border: 1px solid orange;
+}
 #document-part .item .img{
     padding: 15px 0;
 }
-#document-part .item:hover{
-    border: 2px solid orange;
-    opacity: 2;  
-}
+
 #document-part .img-auto-slider .slick-current .item{
     border: 2px solid orange; 
 }
