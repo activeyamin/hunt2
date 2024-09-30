@@ -194,9 +194,6 @@ nav ul li a:hover::after{
 /* =============================================
             about part css start
 ================================================= */
-#about-part{
-    padding-top: 75px;
-}
 #about-part .title h2{
     text-align: center;
     font-family: ralway;
